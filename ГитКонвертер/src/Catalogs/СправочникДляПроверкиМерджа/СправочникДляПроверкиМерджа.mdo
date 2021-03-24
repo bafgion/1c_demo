@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c26c119-df83-430c-bf3c-fc7e427a0518">
+  <producedTypes>
+    <objectType typeId="6fae6709-16f3-479a-9c4e-450a7a3d52d4" valueTypeId="459ec343-a645-40cf-8653-62bacaab862b"/>
+    <refType typeId="1d6683fa-2d4d-4883-9553-829e50be6251" valueTypeId="308ba686-6f5d-44db-b5e0-fae8bde5466a"/>
+    <selectionType typeId="195b0da0-aeae-46d6-8bed-46a00e4d9414" valueTypeId="bd0a1344-3680-467e-a0fc-45b3e3435524"/>
+    <listType typeId="0900a290-93f1-4b53-977e-e42e21aaf818" valueTypeId="f87a2977-49e6-4b4f-a5a9-a4c522a69dc0"/>
+    <managerType typeId="5142a9b9-bbcf-4f40-94a1-b019ac2755fb" valueTypeId="ec2550e4-e399-4d17-b96c-169c94da949f"/>
+  </producedTypes>
+  <name>СправочникДляПроверкиМерджа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник для проверки мерджа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СправочникДляПроверкиМерджа.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СправочникДляПроверкиМерджа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
