@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1122af5-c276-48e9-afc9-0031621f8e29">
+  <producedTypes>
+    <objectType typeId="f2d4831d-4116-47b2-9944-abc33b6678e6" valueTypeId="09f8c2c2-e875-40b7-a0d5-39bfb4e79486"/>
+    <refType typeId="bed3e3f9-93df-49eb-8325-07a1a70c30d1" valueTypeId="88383f4b-8977-4905-8b82-fda66d41f4db"/>
+    <selectionType typeId="dacd9d63-8651-4e49-9ff7-ae0a0b934cdc" valueTypeId="44e8c687-1af0-40b4-93bb-b0782711163c"/>
+    <listType typeId="17e75bf5-2635-486f-82f4-23250aa19fa3" valueTypeId="b80addb1-eb58-47d7-bf27-4f41cc962351"/>
+    <managerType typeId="1db5897f-5170-41cb-a9f5-00aaff6bee0c" valueTypeId="78971172-b0a0-43ca-803f-f1743ea989d1"/>
+  </producedTypes>
+  <name>СправочникНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник новый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СправочникНовый.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СправочникНовый.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="534b50ca-6853-4e58-b49d-58e711378392">
+    <name>ИспользоватьДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c117a1b0-6faf-4672-a20b-89c55ad3fd64">
+    <name>ПроверкаСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка ссылок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СправочникНовый</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
