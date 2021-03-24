@@ -92,6 +92,7 @@
   <catalogs>Catalog.КопииХранилищКонфигурации</catalogs>
   <catalogs>Catalog.ОчередиВыполнения</catalogs>
   <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
+  <catalogs>Catalog.СправочникДляПроверкиМерджа</catalogs>
   <enums>Enum.ОперацииОчереди</enums>
   <enums>Enum.СостоянияВерсии</enums>
   <enums>Enum.ТипыХранилищаКонфигураций</enums>
